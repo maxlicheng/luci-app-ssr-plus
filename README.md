@@ -15,7 +15,7 @@
 ```Brach
     #源码根目录，进入package文件夹
     cd package/
-    #创建一个openwrt-packages进入
+    #创建一个openwrt-packages
     mkdir openwrt-packages
     #进入新建的文件夹
     cd openwrt-packages

@@ -11,13 +11,20 @@
 
    3.更新国内IP段，共8369条
 
-## 使用方法
+## 使用方法一
+```Brach
+    cd package/
+    mkdir openwrt-packages
+    cd openwrt-packages
+    git clone https://github.com/maxlicheng/luci-app-ssr-plus.git
+```
+
+## 使用方法二
 ```Brach
     cd package/lean/
     git clone https://github.com/maxlicheng/luci-app-ssr-plus.git
 ```
 
-## 补充
 在源码根目录
 ```Brach
     vi .gitignore
@@ -26,4 +33,7 @@
 ```Brach
     git rm --cached package/lean/luci-app-ssr-plus/ -r
 ```
+
+## 注意
+两种方法只能选其中一种，
 这样ssr就不受git pull影响了。

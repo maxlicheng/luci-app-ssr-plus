@@ -21,19 +21,15 @@
 
 ## 使用方法二
 ```Brach
+    #在源码根目录
+    vi .gitignore
+    #在文件最后一行，加入
+    git rm --cached package/lean/luci-app-ssr-plus/ -r
+    #保存后，下载源码
     cd package/lean/
     git clone https://github.com/maxlicheng/luci-app-ssr-plus.git
 ```
 
-在源码根目录
-```Brach
-    vi .gitignore
-```
-在文件最后一行，加入
-```Brach
-    git rm --cached package/lean/luci-app-ssr-plus/ -r
-```
-
 ## 注意
 两种方法只能选其中一种，
-这样ssr就不受git pull影响了。
+采用任意方法后，ssr就不受git pull影响了。

@@ -1,13 +1,18 @@
 # luci-app-ssr-plus
 
-This is a backup repoistory of luci-app-ssr-plus from Lean's OpenWrt project package.
+## 说明
+    鉴于L大已删除相关源码，现将自用的ssr源码托管到github
 
-Lean's OpenWrt source:
+    源码特色：
 
-<https://github.com/coolsnowwolf/lede/>
+    1.免开门
 
-Source from tree: 2915c44a11ca0ee40b51ff5d9c18a0da1951e170
+    2.更新g-f-w列表，共5176条
 
-Lean's luci-app-ssr-plus source (history):
+    3.更新国内IP段，共8369条
 
-<https://github.com/coolsnowwolf/lede/tree/2915c44a11ca0ee40b51ff5d9c18a0da1951e170/package/lean/luci-app-ssr-plus>
+## 使用方法
+```Brach
+    cd package/lean/
+    git clone https://github.com/maxlicheng/luci-app-ssr-plus.git
+```

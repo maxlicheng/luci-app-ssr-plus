@@ -13,7 +13,7 @@
 
 ## 使用方法一
 ```Brach
-    #源码根目录
+    #源码根目录，进入package文件夹
     cd package/
     #创建一个openwrt-packages进入
     mkdir openwrt-packages

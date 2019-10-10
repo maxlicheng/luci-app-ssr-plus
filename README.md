@@ -1,6 +1,9 @@
 # luci-app-ssr-plus
 
 ## 说明
+
+   此仓库只做个人备份用，如有需要请到插件原作者 [[Lean]](https://github.com/coolsnowwolf) 的 [[LEDE仓库]](https://github.com/coolsnowwolf/lede)进行反馈。
+
    源码来源：https://github.com/coolsnowwolf
    
    源码特色：
